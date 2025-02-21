@@ -10,11 +10,15 @@
 Following the basics of google apps script <a href='#ref1'>[1]</a> i want now to use it for gmail inbox cleaner
 
 <h2>Installation</h2>
-....
+
 
 
 <h2>Usage</h2>
-....
+Project
+function 
+trigger
+function 
+debug
 
 
 <h2>Design</h2>
