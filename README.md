@@ -79,7 +79,7 @@ You can see the created project 'fresh-inbox' circled in red.
 
 <img src='./figs/created-trigger.png' alt='Created Trigger'/>
 
-The function moveOldEmails is triggered once every 24 hours, 
+The function <code>moveOldEmails</code> is triggered once every 24 hours, 
 as shown in the following image.
 
 <img src='./figs/timer-details.png' alt='Timer Details'/>
@@ -105,7 +105,7 @@ as shown in the following image.
 <img src='./figs/authorization-step-6.png' alt='Step 6' />
 
 <h3>Executions</h3> 
-The executions of moveOldEmails appear in a red circle in the following image. 
+The executions of <code>moveOldEmails</code> appear in a red circle in the following image. 
 You can see one with type Editor (i.e., executed using the Run button) and two 
 executions with type Time-Driven, which were invoked automatically using the trigger.
 
@@ -143,7 +143,7 @@ In this use case, Google Apps Script is superior:
 
 <h2>Points of Interest</h2> 
 <ul>
-  <li>You need to approve the app because it requires permission. Don't approve it if you don't trust it.</li>
+  <li>You need to approve the app because it requires permission. Ensure you trust the script before granting permissions, as it interacts with your Gmail account.</li>
 </ul>
 
 <h2>References</h2> 
