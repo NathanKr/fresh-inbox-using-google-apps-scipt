@@ -17,7 +17,7 @@ Following the basics of google apps script <a href='#ref1'>[1]</a> i want now to
 Project
 function 
 trigger
-function 
+permission 
 debug
 
 
