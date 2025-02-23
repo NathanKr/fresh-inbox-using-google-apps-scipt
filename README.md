@@ -69,6 +69,7 @@ function moveOldEmails() {
 
 
 <h2>Demo</h2>
+Here we'll walk you through the setup and execution of a Google Apps Script project using visual aids
 
 <h3>Dashboard</h3> The dashboard of the Google Apps Script appears in this image. 
 You can see the created project 'fresh-inbox' circled in red.
@@ -118,6 +119,7 @@ shown in the image.
 <img src='./figs/debug-button.png' alt='Debug Button'/>
 
 <h2>Compare New Solution to Old</h2>
+Here's a quick comparison of the old and new solutions, highlighting key improvements.
 
 <h3>Old Solution</h3> 
 The design components are:
