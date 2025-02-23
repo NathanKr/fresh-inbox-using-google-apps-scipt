@@ -1,10 +1,10 @@
 <h1>Project Name</h1>
-Keep fresh gmail inbox using google apps scrips
+Keep fresh gmail inbox using google apps script
 
 
 
 <h2>Project Description</h2>
-....
+This project provide a google apps script solution for keeping your gmail inbox fresh. It provide also comparison to the prevouse solution not using google apps script
 
 <h2>Motivation</h2>
 Following the basics of google apps script <a href='#ref1'>[1]</a> i want now to use it to make my gmail inbox fresh - 24+ hours old email are move to INBOX-old
@@ -17,14 +17,14 @@ No installation is required, but you do need a Gmail account.
 Follow these steps:
 <ul>
 <li>Create a new project</li>
-<li>Add a function</li>
-<li>Run the function</li>
+<li>Add a function to make the inbox fresh</li>
+<li>Run the function manually to test it</li>
 <li>Add a trigger</li>
 <ul>
 
 These step are similiar to <a href='#ref1'>[1]</a>
 
-On yop of these steps you need to approve the app following the function run and may be use the debug screen
+On top of these steps you need to approve the app following the function run and may be use the debug screen
 
 
 
@@ -82,6 +82,32 @@ The trigger details are once every 24 hours as shown in the following image
 
 <img src='./figs/timer-details.png'/>
 
+<h3>First run</h3>
+
+First click on run button will require you for these steps
+
+step 1 - review permission
+<img src='./figs/authorization-step-1.png' />
+
+step 2 - choose an account
+<img src='./figs/authorization-step-2.png' />
+
+step 3 - contunue to advanced
+<img src='./figs/authorization-step-3.png' />
+
+
+step 4 - go to unsafe
+<img src='./figs/authorization-step-4.png' />
+
+
+step 5 - trust the project
+<img src='./figs/authorization-step-5.png' />
+
+
+step 6 - now you can run the function
+<img src='./figs/authorization-step-6.png' />
+
+
 <h3>executions</h3>
 
 The executions of moveOldEmails appear in red circle in the following image. You can see one emarked Editor i.e. exected using Run button and two executions marked Time-Driven whichwere invoked automatically using the trigger
@@ -95,18 +121,39 @@ When you have code issue you can debug it by clicking on the debug button - show
 
 
 
-<h2>compare new to old</h2>
+<h2>compare new solution to old</h2>
 
-
-<h2>Points of Interest</h2>
+<h3>prevouse solution</h3>
+the design components are:
 <ul>
-    <li>...</li>
-   
+<li>gmail api</li>
+ <li>linux cron </li>
+ <li>long code</li> 
+ <li>digital ocean droplet </li>
+ <li>google cloud project : authentication , credentials , permissions , enable api</li> 
+<li>github project</li>
+<li>deploy script</li>
 </ul>
+
+<h3>current solution</h3>
+the design components: google apps script with 30 lines of code
+
+<h3>comparison</h3>
+in this this use case the appscript is supirior
+<ul>
+<li>cost - none for new 6$ per month for prev</li>
+<li>complexity - very simple for google apps sceipt , complicated (many components invokved) for prev</li>
+</ul>
+
+<h2>Points of interest</h2>
+<ul>
+    <li>you need to aprovw the app because it requires permission</li>
+</ul>
+
+
 
 <h2>References</h2>
 <ul>
     <li id='ref1'><a href='https://youtu.be/kTRhDpy1dSU'> Getting Started with Google Apps Script</a></li>
-   
 </ul>
 
